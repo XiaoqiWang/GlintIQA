@@ -11,7 +11,7 @@ The "create_dataset" folder contains all the necessary scripts to generate the p
 ### Step 1: Semantic Feature Extraction
 Configure the IQA dataset parameters in create_dataset/utils.py. Then, run the following command to extract the semantic features of the IQA dataset:
 ```bash
-python python step1_iqadataset_semantics.py --dataset kadid-10k --model_name resnet50 --output_dir ./info_save
+python step1_iqadataset_semantics.py --dataset kadid-10k --model_name resnet50 --output_dir ./info_save
 ```
 ### Step 2: Find Semantically Similar Images
 Next, search for semantically similar images between the reference dataset ([KADIS-700k](https://database.mmsp-kn.de/kadid-10k-database.html), [[download the dataset (44.6 GB)]](https://datasets.vqa.mmsp-kn.de/archives/kadis700k.zip)) and IQA dataset:
