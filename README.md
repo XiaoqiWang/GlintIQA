@@ -2,7 +2,7 @@
 
 ## 📊 Dataset Creation Pipeline
 <div align="center"> 
-<img src="assets/dataset_pipeline.png" alt="图片描述" width="452" height="224">
+<img src="assets/dataset_pipeline.png" alt="dataset" width="1800" height="500">
 </div>
 
 The "create_dataset" folder contains all the necessary scripts to generate the pre-training datasets. Follow these steps to create the dataset:
@@ -50,7 +50,7 @@ TODO:
 ## 🤖 Model Structure
  
 <div align="center"> 
-  <img src="assets/framework.png" alt="图片描述" width="452" height="256">
+  <img src="assets/framework.png" alt="图片描述" width="840" height="512">
 </div>
 
 ```bash
